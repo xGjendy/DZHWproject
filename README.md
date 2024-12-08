@@ -1,2 +1,2 @@
 # DZHWproject
-Web project DZHW
+Web project responsive LogIn & Register Form 
