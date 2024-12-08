@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+
+    <link rel="stylesheet" href="Register.css">
+    <script src="RegisterFunksioni.js"></script>
+</head>
+<body>
+
+    <div class="registerform">
+        <form action="">
+            <h1>Sign Up</h1>
+            <div class="input-box">
+                <label class="labels" for="fname">Name:</label>
+                <input id="firstname" type="text" placeholder="your Name">
+            
+            </div>
+
+            <div class="input-box">
+                <label class="labels" for="surname">Surname <label id="opti" for="optio">(optional):</label></label>
+                <input id="Surname" type="text" placeholder="your Surname">
+
+            </div>
+
+            <div class="input-box">
+                <label class="labels" for="email">Email:</label>
+                <input id="Email" type="email" placeholder="your Email">
+
+            </div>
+
+            <div class="input-box">
+                <label class="labels" for="password">Password:</label>
+                <input type="password" value="" id="myPass" placeholder="your Password">
+                
+            </div>
+
+            <input class="passi" type="checkbox" onclick="myFunction()">Show Password 
+            
+
+
+            <div class="input-box">
+            <label class="labels" for="phoneNr">Phone Number:</label>
+            <input class="PhoneNr" type="tel" placeholder="your Phone Number" required>
+            <small>example:123-456-7890</small>
+        </div><br>
+
+            <button id="submit-btn" type="submit" class="btn">Sign Up</button>
+
+            <div class="login-link">
+                <p>Don't have an account?<a href="LogIn.html" target="_blank"> LogIn here.</a></p>
+
+            </div>
+        </form>
+
+
+
+    </div>
+
+     
+</body>
+</html>

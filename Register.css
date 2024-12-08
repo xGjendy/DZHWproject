@@ -1,0 +1,85 @@
+body {
+    background: url(images/CarRent.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.registerform {
+    border: 2px solid black;
+    width: 550px;
+    color: black;
+    border-radius: 30px;
+    height: 700px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+}
+
+.registerform h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.registerform .input-box {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+.input-box .labels {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 10px;
+
+}
+.input-box #opti {
+    color: #b1b3b1;
+}
+
+.input-box input {
+    font-size: 20px;
+   padding-left: 15px ;
+   width: 98%;
+   height: 100%;
+   border: none;
+   outline: none;
+   border: 3px solid #393939;
+   border-radius: 40px;
+   color: black;
+   
+}
+
+.registerform .btn {
+    width: 100%;
+    height: 45px;
+    background-color:  #0d8c00;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.registerform .btn:hover {
+    color: white;
+    background-color: #075200;
+}
+
+.registerform .login-link {
+    text-align: center;
+    font-size: 14.5px;
+    margin-top: 20px;
+    text-decoration: solid;
+}
+
+.login-link p a {
+    color: black;
+    font-weight: 600;
+    
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+    color: #0800b4;
+}
